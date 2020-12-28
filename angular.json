@@ -125,7 +125,50 @@
           }
         }
       }
+    },
+    "rx-websocket": {
+      "projectType": "library",
+      "root": "projects/rx-websocket",
+      "sourceRoot": "projects/rx-websocket/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/rx-websocket/tsconfig.lib.json",
+            "project": "projects/rx-websocket/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/rx-websocket/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/rx-websocket/src/test.ts",
+            "tsConfig": "projects/rx-websocket/tsconfig.spec.json",
+            "karmaConfig": "projects/rx-websocket/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/rx-websocket/tsconfig.lib.json",
+              "projects/rx-websocket/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
-  "defaultProject": "davidyu1983-libraries"
+  "defaultProject": "davidyu1983-libraries",
+  "cli": {
+    "analytics": "9325049c-f82c-46f2-ae33-f4cbdff03b6b"
+  }
 }

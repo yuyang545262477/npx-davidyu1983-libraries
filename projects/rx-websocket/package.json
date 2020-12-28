@@ -1,0 +1,22 @@
+{
+  "name": "@davidyu1983/rx-websocket",
+  "version": "11.0.4",
+  "description": "pure rxjs websocket; support json and protobuf",
+  "author": "YuYang",
+  "peerDependencies": {
+    "@angular/common": "^11.0.5",
+    "@angular/core": "^11.0.5",
+    "rxjs": "~6.6.3"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "rxjs",
+    "websocket",
+    "typescript",
+    "protobuf"
+  ]
+}
