@@ -1,9 +1,10 @@
-# RxWebsocket 
+# RxWebsocket
+
 [![npm version](https://badge.fury.io/js/%40davidyu1983%2Frx-websocket.svg)](https://www.npmjs.com/package/@davidyu1983/rx-websocket)
 
 pure rxjs implement websocket. support json and protobuf;
 
-### [ChangeLog](./changeLog.md)
+### [ChangeLog](https://github.com/yuyang545262477/npx-davidyu1983-libraries/blob/master/projects/rx-websocket/changeLog.md)
 
 ## how to install
 
