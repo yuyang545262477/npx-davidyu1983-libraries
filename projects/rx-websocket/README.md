@@ -2,11 +2,7 @@
 
 pure rxjs implement websocket. support json and protobuf;
 
-### ChangeLog
-
-#### 11.1.4
-
-* [add]  libConfig add an optional property  "autoConnect" , default is ture;
+### [ChangeLog](./changeLog.md)
 
 ## how to install
 
